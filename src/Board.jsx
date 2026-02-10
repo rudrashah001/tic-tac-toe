@@ -92,7 +92,7 @@ function Board() {
       </div>
 
       <button 
-        className="mt-6 px-6 py-2 bg-gray-800 text-black rounded hover:bg-yellow-300 transition"
+        className="mt-6 px-6 py-2 bg-orange-800 text-black rounded hover:bg-yellow-300 transition"
         onClick={resetGame}
       >
         Reset Game
