@@ -22,49 +22,7 @@ export default App
 
 
 
-// import { useRef } from "react";
-// import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
 
-// import Home from "./pages/Home";
-// import About from "./pages/About";
-// import Skills from "./pages/Skills";
-// import Projects from "./pages/Projects";
-// import Certificates from "./pages/Certificates";
-// import Contact from "./pages/Contact";
-
-// function App() {
-//   const homeRef = useRef(null);
-//   const aboutRef = useRef(null);
-//   const skillsRef = useRef(null);
-//   const projectsRef = useRef(null);
-//   const certRef = useRef(null);
-//   const contactRef = useRef(null);
-
-//   const scrollTo = (ref) => {
-//     ref.current.scrollIntoView({ behavior: "smooth" });
-//   };
-
-//   return (
-//     <>
-//       <Navbar
-//         scrollTo={scrollTo}
-//         refs={{ homeRef, aboutRef, skillsRef, projectsRef, certRef, contactRef }}
-//       />
-
-//       <div ref={homeRef}><Home /></div>
-//       <div ref={aboutRef}><About /></div>
-//       <div ref={skillsRef}><Skills /></div>
-//       <div ref={projectsRef}><Projects /></div>
-//       <div ref={certRef}><Certificates /></div>
-//       <div ref={contactRef}><Contact /></div>
-
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
 
 
 
